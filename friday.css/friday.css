@@ -1,11 +1,6 @@
 body {
     text-align: center;
 
-    @font-face {
-        src: url(font-awesome);
-        font-family: fa-regular-400, fa-brands-400, fa-solid-900;
-    }
-
 }
 
 section {
@@ -72,7 +67,7 @@ h2 {
     margin-top: 15px;
 }
 
-nav {
+main .box-orange {
     background-color: rgb(237, 42, 42);
     width: 370px;
     height: 230px;
@@ -106,10 +101,55 @@ h4 {
     margin-top: 10px;
 }
 
-.box_darkpc {
-    border-radius: 10px;
+main .box-pc {
+    border: solid grey;
+    border-width: 1px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+main .box-darkpc {
+    border: solid grey;
+    border-width: 1px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+main .box-meeting {
+    border: solid grey;
+    border-width: 1px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 30px
 }
 
 footer {
     background-color: rgb(96, 170, 254);
+    width: 370px;
+    height: 170px;
+
+}
+
+footer .box-contattaci {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+footer .box-mail {
+    border-bottom: 10px;
+}
+
+footer .box-address {}
+
+hr {
+    width: 200px;
+}
+
+footer .box-copyright {
+    font-size: 1px;
 }
